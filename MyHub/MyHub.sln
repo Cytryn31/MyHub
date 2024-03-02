@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Krystyna.CostManager", "Krystyna.CostManager", "{814CC0BB-5A9B-47B3-AAA2-596B1629ACBD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{CF5D97F1-D40E-4E19-8FEE-77B8A7D06764}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Krystyna.CostManager.Core", "Modules\Krystyna.CostManager\Krystyna.CostManager.Core\Krystyna.CostManager.Core.csproj", "{A022D29A-2D42-4E9B-9D9D-B2387E3F5BDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Krystyna.CostManager.Infrastructure", "Modules\Krystyna.CostManager.Infrastructure\Krystyna.CostManager.Infrastructure\Krystyna.CostManager.Infrastructure.csproj", "{DAF51DC0-0E91-4825-9D13-05C83853E80E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{814CC0BB-5A9B-47B3-AAA2-596B1629ACBD} = {CF5D97F1-D40E-4E19-8FEE-77B8A7D06764}
+		{A022D29A-2D42-4E9B-9D9D-B2387E3F5BDE} = {814CC0BB-5A9B-47B3-AAA2-596B1629ACBD}
+		{DAF51DC0-0E91-4825-9D13-05C83853E80E} = {814CC0BB-5A9B-47B3-AAA2-596B1629ACBD}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A022D29A-2D42-4E9B-9D9D-B2387E3F5BDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A022D29A-2D42-4E9B-9D9D-B2387E3F5BDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A022D29A-2D42-4E9B-9D9D-B2387E3F5BDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A022D29A-2D42-4E9B-9D9D-B2387E3F5BDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAF51DC0-0E91-4825-9D13-05C83853E80E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAF51DC0-0E91-4825-9D13-05C83853E80E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAF51DC0-0E91-4825-9D13-05C83853E80E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAF51DC0-0E91-4825-9D13-05C83853E80E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
