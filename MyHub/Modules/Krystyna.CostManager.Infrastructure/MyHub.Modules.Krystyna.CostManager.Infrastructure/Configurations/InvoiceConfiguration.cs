@@ -1,8 +1,8 @@
-using Krystyna.CostManager.Core.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using MyHub.Modules.Krystyna.CostManager.Core.Entities;
 
-namespace Krystyna.CostManager.Infrastructure.Configurations;
+namespace MyHub.Modules.Krystyna.CostManager.Infrastructure.Configurations;
 
 public class InvoiceConfiguration : IEntityTypeConfiguration<Invoice>
 {

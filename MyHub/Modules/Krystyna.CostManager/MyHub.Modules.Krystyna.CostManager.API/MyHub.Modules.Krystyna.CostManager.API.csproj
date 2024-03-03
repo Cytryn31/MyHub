@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+    <ItemGroup>
+        <Content Include="module.krystyna.costmanager.json">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Include="module.krystyna.costmanager.development.json">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\Shared\MyHub.Shared.Abstractions\MyHub.Shared.Abstractions.csproj" />
+      <ProjectReference Include="..\..\Krystyna.CostManager.Infrastructure\MyHub.Modules.Krystyna.CostManager.Infrastructure\MyHub.Modules.Krystyna.CostManager.Infrastructure.csproj" />
+      <ProjectReference Include="..\MyHub.Modules.Krystyna.CostManager.Core\MyHub.Modules.Krystyna.CostManager.Core.csproj" />
+    </ItemGroup>
+</Project>

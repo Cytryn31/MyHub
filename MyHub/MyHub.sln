@@ -4,9 +4,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Krystyna.CostManager", "Kry
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{CF5D97F1-D40E-4E19-8FEE-77B8A7D06764}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Krystyna.CostManager.Core", "Modules\Krystyna.CostManager\Krystyna.CostManager.Core\Krystyna.CostManager.Core.csproj", "{A022D29A-2D42-4E9B-9D9D-B2387E3F5BDE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyHub.Modules.Krystyna.CostManager.Core", "Modules\Krystyna.CostManager\MyHub.Modules.Krystyna.CostManager.Core\MyHub.Modules.Krystyna.CostManager.Core.csproj", "{A022D29A-2D42-4E9B-9D9D-B2387E3F5BDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Krystyna.CostManager.Infrastructure", "Modules\Krystyna.CostManager.Infrastructure\Krystyna.CostManager.Infrastructure\Krystyna.CostManager.Infrastructure.csproj", "{DAF51DC0-0E91-4825-9D13-05C83853E80E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyHub.Modules.Krystyna.CostManager.Infrastructure", "Modules\Krystyna.CostManager.Infrastructure\MyHub.Modules.Krystyna.CostManager.Infrastructure\MyHub.Modules.Krystyna.CostManager.Infrastructure.csproj", "{DAF51DC0-0E91-4825-9D13-05C83853E80E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{A1848565-21E8-4522-8F4A-2BB19A525E08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyHub.Shared.Infrastructure", "Shared\MyHub.Shared.Infrastructure\MyHub.Shared.Infrastructure.csproj", "{175896E9-41BF-4831-93F1-A8F095F687FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyHub.Bootstrapper", "MyHub.Bootstrapper\MyHub.Bootstrapper.csproj", "{D77C06A1-2678-4576-866D-8C02C03ABC20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyHub.Shared.Abstractions", "Shared\MyHub.Shared.Abstractions\MyHub.Shared.Abstractions.csproj", "{22BDCD56-F9E4-4435-80D9-291587B6B04B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyHub.Modules.Krystyna.CostManager.API", "Modules\Krystyna.CostManager\MyHub.Modules.Krystyna.CostManager.API\MyHub.Modules.Krystyna.CostManager.API.csproj", "{43BE2297-2302-4EEB-8774-65A343B5816D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +27,9 @@ Global
 		{814CC0BB-5A9B-47B3-AAA2-596B1629ACBD} = {CF5D97F1-D40E-4E19-8FEE-77B8A7D06764}
 		{A022D29A-2D42-4E9B-9D9D-B2387E3F5BDE} = {814CC0BB-5A9B-47B3-AAA2-596B1629ACBD}
 		{DAF51DC0-0E91-4825-9D13-05C83853E80E} = {814CC0BB-5A9B-47B3-AAA2-596B1629ACBD}
+		{175896E9-41BF-4831-93F1-A8F095F687FA} = {A1848565-21E8-4522-8F4A-2BB19A525E08}
+		{22BDCD56-F9E4-4435-80D9-291587B6B04B} = {A1848565-21E8-4522-8F4A-2BB19A525E08}
+		{43BE2297-2302-4EEB-8774-65A343B5816D} = {814CC0BB-5A9B-47B3-AAA2-596B1629ACBD}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{A022D29A-2D42-4E9B-9D9D-B2387E3F5BDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -27,5 +40,21 @@ Global
 		{DAF51DC0-0E91-4825-9D13-05C83853E80E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAF51DC0-0E91-4825-9D13-05C83853E80E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAF51DC0-0E91-4825-9D13-05C83853E80E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{175896E9-41BF-4831-93F1-A8F095F687FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{175896E9-41BF-4831-93F1-A8F095F687FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{175896E9-41BF-4831-93F1-A8F095F687FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{175896E9-41BF-4831-93F1-A8F095F687FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D77C06A1-2678-4576-866D-8C02C03ABC20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D77C06A1-2678-4576-866D-8C02C03ABC20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D77C06A1-2678-4576-866D-8C02C03ABC20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D77C06A1-2678-4576-866D-8C02C03ABC20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22BDCD56-F9E4-4435-80D9-291587B6B04B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22BDCD56-F9E4-4435-80D9-291587B6B04B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22BDCD56-F9E4-4435-80D9-291587B6B04B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22BDCD56-F9E4-4435-80D9-291587B6B04B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43BE2297-2302-4EEB-8774-65A343B5816D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43BE2297-2302-4EEB-8774-65A343B5816D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43BE2297-2302-4EEB-8774-65A343B5816D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43BE2297-2302-4EEB-8774-65A343B5816D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

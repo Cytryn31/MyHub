@@ -1,4 +1,4 @@
-namespace Krystyna.CostManager.Core.Entities;
+namespace MyHub.Modules.Krystyna.CostManager.Core.Entities;
 
 public class Cost
 {

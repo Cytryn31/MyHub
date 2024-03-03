@@ -1,0 +1,8 @@
+{
+  "krystyna.costmanager": {
+    "module": {
+      "name": "krystyna.costmanager",
+      "enabled": true
+    }
+  }
+}
