@@ -10,6 +10,8 @@ MyHub to aplikacja służąca do automatyzacji powtarzalnych czynności, które 
 
 2. Zarządzanie wydatkami - leń nie lubi spisywać paragonów i klasyfikować wydatków co jeśli będzie się to robić samo(tylko kto będzie robił zdjęcia?)
 
+3. Automatyczne spisywanie rzeczy do zrobienia, kategoryzowanie i porządkowanie z luźnych myśli 
+
 ## Jak zacząć?
 
 

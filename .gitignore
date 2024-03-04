@@ -37,7 +37,7 @@ bld/
 **/.idea/**/contentModel.xml
 **/.idea/**/modules.xml
 
-
+.idea/
 # DNX
 project.lock.json
 artifacts/
